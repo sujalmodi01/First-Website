@@ -5,7 +5,7 @@
     
 }
 .bgimg{
-    background-image: linear-gradient(to right bottom,rgba(0, 0, 0, 0.595) 70%,transparent), url('toxic-ewaste-world-photography.jpg'); 
+    
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -14,7 +14,7 @@
     align-items: center;
     /* height: 50%; */
     height: 70vh;
-    margin-top: -41px;
+    margin-top: -57px;
     
 }
 
@@ -28,7 +28,9 @@ table {
 }
 .SERVICES{
     padding: auto;
-    background-color: #070f2b;
+    /* background-color: #070f2b; */
+    /* background-color: #191A19; */
+    background-image:  linear-gradient(to right bottom,rgba(0, 0, 0, 0.595) 70%,transparent), url('toxic-ewaste-world-photography.jpg'); 
    
 }
 .para6{
@@ -103,7 +105,7 @@ table {
 
 }
 .shead:hover{
-    color: #070f2b;
+    color: #191A19;
 }
     
 
@@ -123,7 +125,8 @@ th, td {
 th {
     /* background-color: #86ce9771; */
     /* background-color: rgba(213, 184, 211, 0.83); */
-    background: #9290c3;
+    /* background: #9290c3; */
+    background-color: #3a984de2;
     border-radius: 10px;
     font-family: "Roboto", sans-serif;
     
@@ -152,9 +155,7 @@ th {
         margin: 20px 0; /* Adjust margins for better spacing */
        
     }
-    .content1{
-
-    }
+   
     table{
         overflow-x: hidden;
     }
@@ -172,11 +173,11 @@ th {
         
     }
     .para4{
-        font-size: larger;
+        font-size: 19px;
         margin: 0;
     }
     .para5{
-        font-size: larger;
+        font-size: 19px;
         margin: 0;
     }
 }

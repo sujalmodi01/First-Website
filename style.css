@@ -12,7 +12,8 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   } */
   nav{
-    background-color: #070f2b;
+    /* background-color: #070f2b; */
+    background-color: #191A19;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
   }
   nav ul{
@@ -38,7 +39,7 @@
     color: white;
   }
   nav a:hover{
-       color: #9290c3;
+    color: #3a984de2;
   }
   nav li:first-child{
     margin-right: auto;
@@ -78,7 +79,7 @@
     }
 
     #Welcome{
-      height: 55vh;
+      height: 44vh;
     }
     #welcome-text{
       margin-top: 0;

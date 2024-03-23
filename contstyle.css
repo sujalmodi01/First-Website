@@ -14,10 +14,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background-color: #070f2b;
+    min-height: 85vh;
+    /* background-color: #070f2b; */
+    background-color: #191A19;
     box-shadow: #fff;
     margin-bottom: 32px;
+    /* margin-top: 70px; */
+    /* height: 80vh; */
 
 }
 .contsec::before
@@ -27,8 +30,9 @@
     /* top: 0; */
     left: 0;
     width: 50%;
-    height: 100%;
-    background-color: #070f2b;
+    /* height: 100%; */
+    /* background-color: #070f2b; */
+    background-color: #191A19;
 }
 
 .container
@@ -40,6 +44,7 @@
     z-index: 1000;
     /* border-radius: 22px; */
     /* background-color: #fff; */
+    /* margin-top: -15vw; */
 
 }
 
@@ -49,7 +54,8 @@
     top: 40px;
     width: 350px;
     height: calc(100% - 80px);
-    background: #9290c3;
+    /* background: rgb(21, 103, 21); */
+    background-color: #3c9750;
     z-index: 1;
     padding: 40px;
     display: flex;
@@ -253,10 +259,18 @@
 }
 
 .container .contactForm .formBox .inputBox input[type="submit"]:hover{
-    background: #9290c3;
+    background: #3c9750;
 }
 
 /* make the form responsive */
+@media (max-width: 1626px){
+    .contsec{
+        height: auto;
+    }
+
+}
+
+
 @media (max-width: 1200px)
 {
     .container
@@ -297,7 +311,7 @@
         justify-content: center;
         align-items: center;
         min-height: 100vh;
-        background: #9290c3;
+        /* background: #9290c3; */
     }
 
     .contsec::before

@@ -155,9 +155,8 @@
   height: auto; /* Maintain aspect ratio */
   margin: 10px 0; /* Add margin above and below images */
 }
-.para4,
-  .para5 {
-    font-size: 14px; /* Decrease font size for better readability on smaller screens */
+ .para4{
+    font-size: medium;
   }
 }
 

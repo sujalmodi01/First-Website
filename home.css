@@ -11,7 +11,8 @@
 
 .all{
   /* background-color: white; */
-  background-color: #070f2b;
+  /* background-color: #070f2b; */
+  background-color: #191A19;
   
     
 }
@@ -76,10 +77,10 @@
   /* background-color: rgba(213, 184, 211, 0.83); */
   background: white;
   padding: 30px;
-  border-radius: 10px;
-  width: 92.9vw;
+  /* border-radius: 10px; */
+  /* width: 92.9vw; */
   /* margin-left: 20px; */
-  margin-left: 3.5vw;
+  /* margin-left: 3.5vw; */
 
 }
 
@@ -96,7 +97,8 @@
 }
 
 #welcome-text{
-  color: #13052a;
+  /* color: #13052a; */
+  color:white;
  margin-top: 60px;
  display: block;
  min-height: 100vh;
@@ -106,7 +108,7 @@
 }
 
 .container1:hover{
-  background: #9290c3;
+  background: #1E5128;
 }
 .dynamic-txt{
   border-right: 5px solid;
@@ -135,7 +137,8 @@
   background-size: contain;
   background-clip: padding-box;
   /* background-color: rgba(239, 166, 216, 0.71); */
-  background: #9290c3;
+  /* background: #9290c3; */
+  background-color: #3a984de2;
   width: 110%;
   height: 500px;
   margin-left: -60px;
@@ -151,11 +154,12 @@
   font-size: larger;
   padding: 70px;
   margin-top: 10%;
-  color: hsl(168, 12%, 8%);
+  color: white;
   font-size: large;
   /* font-style: oblique; */
   font-family: "Roboto", sans-serif;
-  background: #9290c330;
+  /* background: #9290c330; */
+  background-color: #191A19;
   border-radius: 15px;
   margin-left: 163px;
   margin-right: 163px;
@@ -169,6 +173,13 @@
 
 /*responsive*/
 
+
+
+
+
+
+
+
 @media screen and (max-width: 1367px){
   .HOME{
     /* width: 50%;
@@ -178,8 +189,8 @@
     padding: 0;
 }
 .home2{
-  margin-left: 5vw;
-  width: 92vw;
+  /* margin-left: 5vw; */
+  width: 100vw;
 
 }
 #para3{
