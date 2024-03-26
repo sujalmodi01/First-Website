@@ -103,7 +103,7 @@
 	 font-size: 18px;
 	 color: #ffffff;
 	 text-transform: capitalize;
-	 margin-bottom: 35px;
+	 margin-bottom: 12px;
 	 font-weight: 500;
 	 position: relative;
  }
@@ -168,6 +168,23 @@
 	align-items: center; */
 	
 
+	/* @media(max-width: 600px){
+		.star li a{
+			text-decoration: none;
+			color: white;
+			font-size: 12px;
+		
+		}
+		.footer-col4 .social-links a {
+			width: 16px;
+			font-size: 16px;
+	
+		}
+		/* .social-links{
+			display: flex;
+			flex-wrap: wrap;
+		} */
+
 	
 
 @media(max-width: 1043px){
@@ -176,7 +193,16 @@
 		display: grid;
 		/* grid-template-rows: 1fr 1fr; */
     grid-template-columns: 1fr 1fr;
+	gap: 44px
 	}
+
+     .containerrr{
+		    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	 } 
+	
 	.footer-col1{
 		width: 26vw;
 	}
@@ -193,16 +219,16 @@
 		font-size: 1.8vw;
 	}
 	.footer-col1 h4{
-		font-size: 2.5vw;
+		font-size: 2.3vw;
 	}
 	.footer-col2 h4{
-		font-size: 2.5vw;
+		font-size: 2.3vw;
 	}
 	.footer-col3 h4{
-		font-size: 2.5vw;
+		font-size: 2.3vw;
 	}
 	.footer-col4 h4{
-		font-size: 2.5vw;
+		font-size: 2.3vw;
 	}
 	.footer-col4 .social-links a{
 		line-height: 25px;
@@ -212,13 +238,13 @@
 		width: 12vw;
 	}
 	.footer-col2 h4::before{
-		width: 11vw;
+		width: 10vw;
 	}
 	.footer-col3 h4::before{
 		width: 12vw;
 	}
 	.footer-col4 h4::before{
-		width: 12vw;
+		width: 11vw;
 	}
 }
 
@@ -243,13 +269,75 @@
 }
 }
 
+@media(max-width:510px){
+	.star li a{
+		text-decoration: none;
+		color: white;
+		font-size: 11px;
+	}
+	.footer-col4 .social-links a{
+		font-size: 13px;
+
+	}
+	.footer-col1 h4{
+		font-size: 12px;
+	}
+	.footer-col2 h4{
+		font-size: 12px;
+	}
+	.footer-col3 h4{
+		font-size: 12px;
+	}
+	.footer-col4 h4{
+		font-size: 12px;
+	}
+    
+    
+    .footer-col4 h4::before{
+		width: 10vh;
+	}
+	.footer-col1 h4::before{
+		width: 11vh;
+	}
+	.footer-col2 h4::before{
+		width: 10vh;
+	}
+	.footer-col3 h4::before{
+		width: 12vh;
+	}
+
+
+
+
+}
+
+/* @media (max-width:345px){
+	.footer-col1 h4{
+
+	}
+} */
+
+@media (max-width:450px){
+	.social-links{
+    display: flex;
+	flex-direction: column;
+	height: 145px;
+	}
+}
+@media (max-width:730px){
+	.social-links{
+
+		display: flex;
+	}
+}
 .comphead1{
 	color: black;
 	text-align: center;
 	margin-bottom: 30px;
 	margin-top: -20px;
-	font-size: 45px;
+	font-size: xx-large;
 	margin-bottom: 15px;
+	left: 2%;
 	font-family: "Roboto", sans-serif;
 }
 

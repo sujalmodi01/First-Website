@@ -43,8 +43,10 @@ table {
     position: relative;
     text-align: center;
     top: 20%;
-    font-size: 3vw;
+    font-size: xx-large;
     left: 3%;
+    display: flex;
+    justify-content: center;
     /* margin-bottom: -14px; */
 }
 
@@ -158,6 +160,9 @@ th {
    
     table{
         overflow-x: hidden;
+    }
+    .para4{
+        font-size: 13px;
     }
 }
 

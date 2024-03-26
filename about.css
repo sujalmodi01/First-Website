@@ -3,13 +3,17 @@
   padding: 0;
   
 }
-.secondheading{
-  position: relative;
-  text-align: center;
-  top: 20%;
-  font-size: x-large;
-  left: 3%;
+
+.secondheading {
+    position: relative;
+    text-align: center;
+    top: 20%;
+    font-size: x-large;
+    left: 1%;
+    display: flex;
+    justify-content: center;
 }
+
 
 .ABOUT{
   padding: 0px;
