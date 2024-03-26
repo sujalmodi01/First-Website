@@ -68,7 +68,7 @@
   }
   .menu-button{
     display: none;
-    background-color: #070f2b;
+    background-color: #191A19;
   }
   @media(max-width: 800px){
     .hideOnMobile{
@@ -86,9 +86,9 @@
       margin-top: 0;
       font-size: 1.5rem;
      }
-     .dynamic-txt{
+     /* .dynamic-txt{
       font-size: 1.2rem;
-     }
+     } */
      #para1{
       padding:0; 
       margin: 80px;

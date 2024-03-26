@@ -99,7 +99,7 @@
 
 .fourthheading{
     text-align: center;
-    font-size: 2.5vw;
+    /* font-size:2vw; */
     /* margin-bottom: -35px; */
     
 }
@@ -141,11 +141,11 @@
 
 .container .contactInfo ul.sci li
 {
-    margin-right: -61px;
+    /* margin-right: -61px; */
     list-style: none;
     width: 8vw;
 }
-}
+
 
 .container .contactInfo ul.sci li a
 {
@@ -347,10 +347,12 @@
     }
     .container .contactInfo ul.sci
     {
-       position: relative;
-       display: flex;
-       justify-content: center;
-       align-items: center;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
        
        
     }
@@ -371,7 +373,10 @@
 
     .container .contactInfo ul.sci
     {
-        margin-top: 40px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
     }
 
     .container .contactForm .formBox .inputBox.w50

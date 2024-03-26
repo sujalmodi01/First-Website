@@ -13,7 +13,7 @@
     justify-content: center;
     align-items: center;
     /* height: 50%; */
-    height: 70vh;
+    height: 60vh;
     margin-top: -57px;
     
 }
@@ -39,12 +39,14 @@ table {
 .thirdheading{
     padding: 0px;
     /* margin: 1px 42px; */
-    margin-top: 0px;
+    margin-top: 14px;
     position: relative;
     text-align: center;
     top: 20%;
-    font-size: xx-large;
-    left: 3%;
+    /* font-size: xx-large; */
+
+    /* font-size: 3vw; */
+    /* left: 3%; */
     display: flex;
     justify-content: center;
     /* margin-bottom: -14px; */
@@ -122,6 +124,7 @@ th, td {
     border-spacing: 2cm; text-align: left;
     padding: 9px 20px; /* Adjust the padding to increase the gap */
     font-family: "Roboto", sans-serif;
+    text-align: justify;
 }
 
 th {
@@ -149,8 +152,6 @@ th {
 
 
 
-
-
   @media only screen and (max-width: 600px) {
     .serv01 {
         width: 90vw; /* Make the width full for small screens */
@@ -161,29 +162,72 @@ th {
     table{
         overflow-x: hidden;
     }
-    .para4{
-        font-size: 13px;
-    }
+   .para4{
+    font-size: 3.2vw !important;
+   }
+   .para5{
+    font-size: 3.2vw !important;
+   }
+   #abc{
+    font-size: 4vw;
+   }
+   #p1{
+    font-size: 4vw;
+   }
+
 }
 
+@media screen and (max-width: 400px){
+     .para4{
+        font-size: 3.1vw !important;
+
+     }
+     .para5{
+        font-size: 3.1vw !important;
+
+     }
+}
+@media screen and (max-width: 445px){
+    table{
+        font-size: 3.3vw;
+
+    }
+    .shead{
+        padding: 3px;
+
+    }
+    tr{
+
+    }
+}
 @media screen and (max-width: 528px){
     #para2{
         font-size: 3vw;
+    }
+    td{
+
     }
 }
 
 @media screen and (max-width: 982px){
     .content1{
-        display: contents;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
         
     }
     .para4{
-        font-size: 19px;
+        font-size: 1.2rem;
         margin: 0;
+        padding: 0;
     }
     .para5{
-        font-size: 19px;
+        font-size: 1.2rem;
         margin: 0;
+        padding: 0;
+    }
+    #abc{
+        padding: 0;
     }
 }
 
@@ -210,9 +254,9 @@ th {
 
     }
     
-.content1{
+/* .content1{
     font-size: 15px;
-}
+} */
 
     #para2{
         /* font-size: larger; */
