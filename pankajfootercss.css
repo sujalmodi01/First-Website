@@ -272,7 +272,20 @@
 }
 @media(max-width:480px){
 	.footer-col4 h4::before{
-		width: 11.5vw;
+		/* width: 11.5vw; */
+		position: relative;
+	}
+	.footer-col1 h4::before{
+		/* width: 12vw; */
+		position: relative;
+	}
+	.footer-col2 h4::before{
+		/* width: 10.6vw; */
+		position: relative;
+	}
+	.footer-col3 h4::before{
+		/* width: 12.5vw; */
+		position: relative;
 	}
 }
 @media(max-width:510px){
@@ -288,6 +301,8 @@
 	}
 	.footer-col1 h4{
 		font-size: 12px;
+		width: 42vw;
+
 	}
 	.footer-col2 h4{
 		font-size: 12px;

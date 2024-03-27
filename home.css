@@ -41,7 +41,7 @@
   font-family: "Roboto", sans-serif;
   font-weight: 1000;
   font-size:x-large;
-  width: 100%;
+  width: 90%;
   
   color: black;
   text-align: center;
@@ -54,6 +54,7 @@
   font-size: 1.3vw;
   padding: 5px ;
   color: black;
+  margin-left: 16px;
 }
 
 
@@ -69,7 +70,7 @@
 .immmg{
   width: 255vw;
   height: 30vw;
-  margin-right: 20px;
+  /* margin-right: 20px; */
   border-radius: 23px;
 }
 .home2{

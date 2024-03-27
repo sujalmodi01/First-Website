@@ -264,7 +264,7 @@ th {
     }
     .immmg{
         width: auto;
-        margin-left: 18px;
+        /* margin-left: 18px; */
     }
     .sec1{
         margin-bottom: 2rem;
@@ -307,5 +307,6 @@ th {
         display: flex;
         flex-direction: column;
         font-size: small;
+        margin: -2px;
     }
   }
